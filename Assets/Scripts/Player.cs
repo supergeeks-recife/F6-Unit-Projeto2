@@ -15,14 +15,18 @@ public class Player : NetworkBehaviour
     bool inputAttack;
     public float speed;
 
-    //eventos que serão disparados quando o jogador mover o Player e quiser atacar
+    //eventos que serï¿½o disparados quando o jogador mover o Player e quiser atacar
     public InputEvent OnDirectionChanged;
     public BoolEvent OnAttack;
-
+    public GameObject myCamera;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if(isLocalPlayer == false)
+        {
+            //myCamera.GetComponent<CinemachineVirtualCamera>().enabled = false;
+        }
     }
 
     void Update()
@@ -34,7 +38,7 @@ public class Player : NetworkBehaviour
             inputY = Input.GetAxisRaw("Vertical");
             OnDirectionChanged?.Invoke(inputX, inputY);
 
-            //por enquanto o ataque está desabilitado, vamos programar ele em aula!
+            //por enquanto o ataque estï¿½ desabilitado, vamos programar ele em aula!
 
             //inputAttack = Input.GetKeyDown(KeyCode.Space);
             //OnAttack?.Invoke(inputAttack);
