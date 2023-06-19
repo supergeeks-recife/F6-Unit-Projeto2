@@ -18,11 +18,15 @@ public class Player : NetworkBehaviour
     //eventos que serão disparados quando o jogador mover o Player e quiser atacar
     public InputEvent OnDirectionChanged;
     public BoolEvent OnAttack;
-
+    public GameObject myCamera;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (!isLocalPlayer)
+        {
+            //myCamera.GetComponent<CinemachineVirtuaCamera>().enabled = false;
+        }
     }
 
     void Update()
