@@ -312,6 +312,42 @@ SpriteAtlas:
   - {fileID: 21300000, guid: de86d6de76534412d8c49beed76b60f1, type: 3}
   - {fileID: 21300000, guid: 249230eea0d1740f58df58df278ef6a8, type: 3}
   - {fileID: 21300000, guid: ebff3dfe75a534761ae901e76a7b4a17, type: 3}
+  - {fileID: 877478790, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1533456927, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -2056613898, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1233411408, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1077258034, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 187879021, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 38373069, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 299008471, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1501632967, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1328174867, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1509505143, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 74044721, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -605538976, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1757053013, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -450263504, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -598259897, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 515982694, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -77814119, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1545999839, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -2126494476, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1495637438, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 302815101, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1903499616, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1204436406, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1341361355, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1794895398, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -115019766, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -2022727405, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 681538325, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1006796205, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1959627280, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1342161764, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1522267730, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 1927045183, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: 36656846, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
+  - {fileID: -1553425634, guid: 05b3740ffb5e7ce42b727d0957f13d9f, type: 3}
   - {fileID: 21300000, guid: 03689c0f1f35b41c5bceb785885fe716, type: 3}
   - {fileID: 21300000, guid: 0a6b211fa7f564124a73161b77f6ea89, type: 3}
   - {fileID: 21300000, guid: ad4bde4ff881b433c9782cb194049b0f, type: 3}
@@ -583,6 +619,42 @@ SpriteAtlas:
   - sign
   - frog1
   - chest-closed
+  - zombie_n_skeleton2_30
+  - zombie_n_skeleton2_31
+  - zombie_n_skeleton2_32
+  - zombie_n_skeleton2_33
+  - zombie_n_skeleton2_23
+  - zombie_n_skeleton2_34
+  - zombie_n_skeleton2_22
+  - zombie_n_skeleton2_35
+  - zombie_n_skeleton2_21
+  - zombie_n_skeleton2_20
+  - zombie_n_skeleton2_16
+  - zombie_n_skeleton2_27
+  - zombie_n_skeleton2_17
+  - zombie_n_skeleton2_26
+  - zombie_n_skeleton2_14
+  - zombie_n_skeleton2_25
+  - zombie_n_skeleton2_15
+  - zombie_n_skeleton2_24
+  - zombie_n_skeleton2_12
+  - zombie_n_skeleton2_13
+  - zombie_n_skeleton2_10
+  - zombie_n_skeleton2_29
+  - zombie_n_skeleton2_11
+  - zombie_n_skeleton2_28
+  - zombie_n_skeleton2_18
+  - zombie_n_skeleton2_19
+  - zombie_n_skeleton2_3
+  - zombie_n_skeleton2_2
+  - zombie_n_skeleton2_1
+  - zombie_n_skeleton2_0
+  - zombie_n_skeleton2_7
+  - zombie_n_skeleton2_6
+  - zombie_n_skeleton2_5
+  - zombie_n_skeleton2_4
+  - zombie_n_skeleton2_9
+  - zombie_n_skeleton2_8
   - orb-blue1
   - sea3
   - sword
