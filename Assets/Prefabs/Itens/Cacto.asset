@@ -16,5 +16,5 @@ MonoBehaviour:
   desctiption: "Planta do Set\xE3o"
   value: 10
   type: 3
-  icon: {fileID: 5647927918959163175, guid: 95c3bab3e6fc0894e9895c69a34facd3, type: 3}
+  icon: {fileID: 3920937879922291004, guid: 099b7cd3120868949b98822bead6362c, type: 3}
   heal: 20
