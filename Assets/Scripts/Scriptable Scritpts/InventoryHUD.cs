@@ -35,7 +35,7 @@ public class InventoryHUD : MonoBehaviour
 
             new_icon.GetComponentInChildren<TextMeshProUGUI>().text =
                 slot.amount.ToString();
-
+            /*
             AddTriggerEvent(new_icon, EventTriggerType.PointerEnter,
                 delegate { OnEnter(new_icon); });
 
@@ -50,6 +50,7 @@ public class InventoryHUD : MonoBehaviour
 
             AddTriggerEvent(new_icon, EventTriggerType.EndDrag,
                 delegate { OnStopDrag(new_icon); });
+            */
         }
     }
 
