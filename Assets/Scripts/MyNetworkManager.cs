@@ -10,6 +10,7 @@ public class MyNetworkManager : NetworkManager
     public Transform player1SpawnPoint;
     public Transform player2SpawnPoint;
 
+    public UnityEvent OnPlayerInRoom;
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
 
@@ -18,6 +19,7 @@ public class MyNetworkManager : NetworkManager
         if(numPlayers == 0)
         {
             startPoint = player1SpawnPoint;
+            OnPlayerInRoom.Invoke();
         }
         else
         {

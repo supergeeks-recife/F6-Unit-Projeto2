@@ -13,21 +13,23 @@ public class Bot : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false; ;
         agent.updateUpAxis = false;
+        target = GameObject.FindObjectOfType<Player>().transform;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
+        agent.SetDestination(target.position);        
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Player") && target == null)
         {
             target = collision.gameObject.transform;
             agent.isStopped = false;
-            Debug.Log("O Player está aqui!!! Pega ele!");
+            Debug.Log("O Player esta aqui!!! Pega ele!");
         }
     }
 
